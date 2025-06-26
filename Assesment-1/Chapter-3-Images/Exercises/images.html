@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nature Vibes Gallery</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .image-container {
+      margin: 2rem 0;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      width: 400px;
+      border-radius: 12px;
+      filter: grayscale(60%) brightness(1.1) contrast(1.2);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      transition: filter 0.3s ease;
+    }
+
+    img:hover {
+      filter: none;
+    }
+
+    .caption {
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <h1> Nature Vibes</h1>
+
+  <div class="image-container">
+    <img 
+      src="lake.jpg" 
+      alt="A serene lake with mountains"
+      width="400"
+      height="267"
+      title="Lake Mountain Canada"
+    />
+    <div class="caption">Photo by <a href="https://pixabay.com/photos/lake-mountain-canada-landscapes-3557095/" target="_blank">Pixabay</a> Lake, Mountain, Canada image. Free for use.</div>
+  </div>
+
+  <div class="image-container">
+    <img 
+      src="bow.jpg"
+      alt="Alberta Alpenglow Lake"
+      width="400"
+      height="267"
+      title="Beautiful Bow Lake"
+    />
+    <div class="caption">Photo by <a href="https://www.istockphoto.com/portfolio/lucky-photographer?mediatype=photography" target="_blank">Lucky-photographer</a> on iStock Free for commercial use</div>
+  </div>
+
+  <div class="image-container">
+    <img 
+      src="evening.jpg"
+      alt="Reflections"
+      width="400"
+      height="267"
+      title="Reflections of evening "
+    />
+    <div class="caption">Photo by <a href="https://www.istockphoto.com/portfolio/epicurean?mediatype=photography" target="_blank">Epicurean</a> on iStock Free for commercial use</div>
+  </div>
+
+</body>
+</html>
